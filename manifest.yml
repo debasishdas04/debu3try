@@ -1,0 +1,11 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: debu3try
+  host: debu3try
+  disk_quota: 1024M
+  services:
+  - availability-monitoring-auto
+  - Personality Insights-1m
